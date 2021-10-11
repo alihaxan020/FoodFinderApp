@@ -23,8 +23,9 @@ Download code and run following command in your terminal.
   
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![App Screenshot1](https://github.com/alihaxan020/FoodFinderApp/blob/main/assets/images/screenshot1.PNG?raw=true)
+                  
+![App Screenshot1](https://github.com/alihaxan020/FoodFinderApp/blob/main/assets/images/Screenshot2.PNG?raw=true)
   
 ## FoodFinderApp setup
 Yelp's website is a crowd-sourced local business review and social networking site.
@@ -48,14 +49,8 @@ export default axios.create({
 ```
 
   
-## Dependencies
-
-- @react-navigation/native V6.0.4
-- @react-navigation/native-stack V6.2.2
-- axios V0.22.0
-- react-native-vector-icons V6.6.0
-- react-native-screens v3.8.0
-  
 ## Developed by
 
 - [@alihaxan020](https://github.com/alihaxan020)
+
+  
