@@ -23,9 +23,7 @@ Download code and run following command in your terminal.
   
 ## Screenshots
 
-![App Screenshot1](https://github.com/alihaxan020/FoodFinderApp/blob/main/assets/images/screenshot1.PNG?raw=true)
-                  
-![App Screenshot1](https://github.com/alihaxan020/FoodFinderApp/blob/main/assets/images/Screenshot2.PNG?raw=true)
+![App Screenshot1](https://github.com/alihaxan020/FoodFinderApp/blob/main/assets/images/screenshot1.PNG?raw=true) ![App Screenshot1](https://github.com/alihaxan020/FoodFinderApp/blob/main/assets/images/Screenshot2.PNG?raw=true)
   
 ## FoodFinderApp setup
 Yelp's website is a crowd-sourced local business review and social networking site.
@@ -47,6 +45,28 @@ export default axios.create({
   },
 });
 ```
+
+FoodFinderApp is currently targeting San Jose audience and showing them San Jose Restaurant. If you want to change location from San Jose to another city.
+We can change it. Go to **src/hooks/useResults.js** and changes from san jose to your desir ciyt.
+
+```javascript
+//yelp.js 
+  const searchApi = async searchTerm => {
+    try {
+      const response = await yelp.get('/search', {
+        params: {
+          term: searchTerm,
+          limit: 50,
+          location: 'san jose', //change to another city
+        },
+      });
+      setResults(response.data.businesses);
+    } catch (error) {
+      setErrorMessage('Something went wrong');
+    }
+
+```
+
 
   
 ## Developed by
