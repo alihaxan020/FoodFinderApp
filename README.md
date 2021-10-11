@@ -55,7 +55,7 @@ export default axios.create({
 - axios V0.22.0
 - react-native-vector-icons V6.6.0
 - react-native-screens v3.8.0
-
-
-
   
+## Developed by
+
+- [@alihaxan020](https://github.com/alihaxan020)
